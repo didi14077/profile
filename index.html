@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--значение по умолчанию-->
+    <meta name="keywords" content="htmt, css, tags">
+    <meta name="description" content="мое портфолио"><!--краткое описание страницы-->
+    <title>My site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img class="avatar" src="picture/fox.jpg" alt="здесь лиса">
+            <div class="infotext">
+                <h1>Всем привет, я Ди!</h1>
+
+                <p> Я начинающий <strong>веб-разработчик</strong> и это один из моих проектов.</p>
+
+                <p> Студент, занимаюсь спортом и программированием</p>
+                
+                <h3>Мои соцсети:</h3>
+
+                <a href="https://www.google.ru/" target="_blank">instagram</a>
+                |
+                <a href="https://www.google.ru/" target="_blank">vk</a>
+                |
+                <a href="https://www.google.ru/" target="_blank">Telegram</a>
+                </div>
+        </div>
+
+        <div class="card hobby">
+
+            <h2><strong>Мои увлечения</strong></h2>
+
+            <ol class="list">
+                <li>Кино</li>
+                <li>Программирование</li>
+                <li>Книги</li>
+                <li>История</li>
+                <li>Физика</li>
+            </ol>
+        </div>
+
+        <div class="card job">
+
+            <h2>Опыт работы</h2>
+
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th>SPELS</th>
+                        <th>Техник</th>
+                        <th>2020-...</th>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+            
+            <form action="/" class="form">
+                <h2>Связяться со мной</h2>
+
+                <div class="form-row">
+
+                <div class="form-group">
+                    <label for="yourname">Ваше имя</label>
+                    <input type="text" id="yourname" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="youremail">Ваше email:</label>
+                    <input type="email" id="youremail" placeholder="Введите email">
+                </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="yourmess">Ваше сообщение:</label>
+                    <textarea id="yourmess" placeholder="Введите сообщение" cols="25" rows="6"></textarea>
+                </div>
+
+                <!-- <input type="submit" value="Отправить"> -->
+                <button class="btn">Отправить!</button>
+
+            </form>
+    </div>
+</body>
+</html>
